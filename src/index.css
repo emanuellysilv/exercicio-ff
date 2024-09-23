@@ -1,0 +1,101 @@
+* {
+  background-color: white;
+}
+.login {
+  border: #660cdb;
+  border-radius: 10px;
+  padding: 10px;
+}
+img {
+  width: 380px;
+  height: 231px;
+}
+
+table {
+  border-radius: 10px;
+  border-spacing: 0;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(245, 8, 8, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #660cdb;
+  color: white;
+}
+
+td {
+  background-color: #fafafa;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tr:hover td {
+  background-color: #e0e0e0;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 10px;
+  flex: 1;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #660cdb;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
